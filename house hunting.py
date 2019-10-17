@@ -6,7 +6,7 @@ annual_salary = int(input("Enter your annual salary:"))
 portion_saved = float(input("Enter the percent of your salary to save, as a decimal:"))
 total_cost = int(input("Enter the cost of your dream home:"))
 
-portion_down_payment = 0.25 #assume
+portion_down_payment = 0.25 #we assumed that down payment will be %25 of total cost. Make it 1 if you want to calculate for total cost.
 down_payment = total_cost * portion_down_payment
 current_savings = 0
 r = 0.04 #assuming that your invesments earn a return of 0.04 each month
