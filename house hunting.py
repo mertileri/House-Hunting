@@ -2,6 +2,9 @@
 #This is a program to calculate how many months it will take you to save up enough money for a down payment
 #Assume that your investments earn a return of 4%
 
+#Bu, ev peşinatı için yeterince para biriktirmenizin kaç ay süreceğini hesaplayan bir programdır.
+#Yatırımlarınızın %4 faiz getirisi kazandığını varsayın
+
 annual_salary = int(input("Enter your annual salary:"))
 portion_saved = float(input("Enter the percent of your salary to save, as a decimal:"))
 total_cost = int(input("Enter the cost of your dream home:"))
